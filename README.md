@@ -25,7 +25,7 @@ Object detection draws a bounding **box** around a note. Instance segmentation t
 |---|---|
 | Source images | Roboflow Universe (detection dataset) |
 | Annotations | Hand-annotated polygons using Roboflow Smart Polygon (SAM-based) |
-| Total images | 346 (with augmentation) |
+| Total images | ~330 (with augmentation) |
 | Classes | 7 (₹10, ₹20, ₹50, ₹100, ₹200, ₹500, ₹2000) |
 | Images per class | ~27 balanced |
 | Split | 70% train / 20% val / 10% test |
