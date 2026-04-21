@@ -2,5 +2,5 @@ train: /content/dataset/train/images
 val: /content/dataset/val/images
 test: /content/dataset/test/images
 
-nc: 8  # number of classes
-names: ['Indian-Currency-Segmentation', 'Rs10', 'Rs100', 'Rs20', 'Rs200', 'Rs2000', 'Rs50', Rs500]
+nc: 7  # number of classes
+names: ['Rs10', 'Rs100', 'Rs20', 'Rs200', 'Rs2000', 'Rs50', Rs500]
