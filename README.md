@@ -2,7 +2,7 @@
 
 > YOLOv8-seg trained on a custom-annotated dataset to detect and segment Indian currency denominations (₹10 – ₹2000) with pixel-level masks.
 
-![Demo]![alt text](demo.gif)
+![Demo](demo/demo.gif)
 
 ---
 
@@ -80,12 +80,12 @@ Class label + Confidence + Mask overlay
 ## Demo
 
 ### Successful Detection
-![Rs200 detected](demo/rs200_result.png)
+![Rs200 detected](demo/image-1.png)
 
 *Rs200 detected at 0.99 confidence with pixel-accurate mask*
 
 ### Failure Case — Overlapping Notes
-![Overlapping notes failure](demo/failure_overlap.png)
+![Overlapping notes failure](demo/image.png)
 
 *Model fails when notes overlap — masks bleed across notes instead of separating instances. Training data contained no overlapping examples. This is a known limitation.*
 
