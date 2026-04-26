@@ -6,9 +6,9 @@
 
 ---
 
-## Why Segmentation over Detection?
+## Why Segmentation over Detection? 
 
-Object detection draws a bounding **box** around a note. Instance segmentation traces the **exact pixel boundary** of each note. For currency, this matters because:
+Object detection draws a bounding **box** around a note. Instance segmentation traces the **exact pixel boundary** of each note. For currency, this matters because::
 
 - **Overlapping notes** — boxes merge; masks can separate individual notes in a pile
 - **Damaged note detection** — pixel-level masks enable texture analysis on the exact note region, not background
